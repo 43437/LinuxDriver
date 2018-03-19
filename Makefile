@@ -1,4 +1,4 @@
-obj-m := hello.o
+obj-m := globalvar.o
 
 all :
 	$(MAKE) -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
